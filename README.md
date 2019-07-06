@@ -1,0 +1,3 @@
+# Naive-Bayes-Classifier
+
+Reads from a text file that contains the training corpus. The program determines whether each line in the corpus belongs to an action or comedy class. It then makes list of unique words from each class. A separate array keeps track of the count for each of those unique words. Using this data, the program calculates the probability of each word in its given class - the naive Baye’s classifier (File 1.2.2). Additionally, the naive Baye’s classifier is also calculated with add one smoothing (file 1.2.2) . Finally, the most likely class for the given set of words: {fast, couple, shoot, fly} is determined by computing the probabilities of that set for each class (File 1.2.3)
